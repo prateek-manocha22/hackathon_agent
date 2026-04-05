@@ -2,8 +2,7 @@ import requests
 import base64
 import os
 import json
-from dotenv import load_dotenv
-load_dotenv()
+
 
 JIRA_DOMAIN = os.getenv("JIRA_DOMAIN")
 JIRA_EMAIL = os.getenv("JIRA_EMAIL")

@@ -6,9 +6,7 @@ from slack_tool import post_slack_message
 from calendar_tool import create_calendar_event, save_token
 import json, os, requests as req
 from datetime import datetime
-from dotenv import load_dotenv
 
-load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = os.getenv("SECRET_KEY", "nexrelease-secret-2026")

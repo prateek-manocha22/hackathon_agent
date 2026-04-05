@@ -1,8 +1,6 @@
 import requests
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
 
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN")
 DEFAULT_CHANNEL = "releases"
